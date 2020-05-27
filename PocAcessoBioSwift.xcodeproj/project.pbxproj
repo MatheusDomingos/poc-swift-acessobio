@@ -1,0 +1,457 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		949AB4D70A1AB20451EE2F5B /* Pods_PocAcessoBioSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85983BD2EF9BF6BFF4F2E6D7 /* Pods_PocAcessoBioSwift.framework */; };
+		E647DBA0247DCE89003D13F9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E647DB9F247DCE89003D13F9 /* AppDelegate.swift */; };
+		E647DBA4247DCE89003D13F9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E647DBA3247DCE89003D13F9 /* ViewController.swift */; };
+		E647DBA7247DCE89003D13F9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E647DBA5247DCE89003D13F9 /* Main.storyboard */; };
+		E647DBA9247DCE93003D13F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E647DBA8247DCE93003D13F9 /* Assets.xcassets */; };
+		E647DBAC247DCE93003D13F9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E647DBAA247DCE93003D13F9 /* LaunchScreen.storyboard */; };
+		E647DBB6247DD0AC003D13F9 /* Alerts.m in Sources */ = {isa = PBXBuildFile; fileRef = E647DBB4247DD0AC003D13F9 /* Alerts.m */; };
+		E647DBBA247DD2F2003D13F9 /* TestAcessoBioVew.swift in Sources */ = {isa = PBXBuildFile; fileRef = E647DBB9247DD2F2003D13F9 /* TestAcessoBioVew.swift */; };
+		E647DBBD247DD6D0003D13F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E647DBBC247DD6D0003D13F9 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85983BD2EF9BF6BFF4F2E6D7 /* Pods_PocAcessoBioSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PocAcessoBioSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5FB1C99AE526B5D43C28A3E /* Pods-PocAcessoBioSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocAcessoBioSwift.debug.xcconfig"; path = "Target Support Files/Pods-PocAcessoBioSwift/Pods-PocAcessoBioSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		CE58BCFE74610D3D6B058A40 /* Pods-PocAcessoBioSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PocAcessoBioSwift.release.xcconfig"; path = "Target Support Files/Pods-PocAcessoBioSwift/Pods-PocAcessoBioSwift.release.xcconfig"; sourceTree = "<group>"; };
+		E647DB9C247DCE89003D13F9 /* PocAcessoBioSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PocAcessoBioSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E647DB9F247DCE89003D13F9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E647DBA3247DCE89003D13F9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E647DBA6247DCE89003D13F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E647DBA8247DCE93003D13F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E647DBAB247DCE93003D13F9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E647DBAD247DCE93003D13F9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E647DBB3247DD0AB003D13F9 /* PocAcessoBioSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PocAcessoBioSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		E647DBB4247DD0AC003D13F9 /* Alerts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Alerts.m; sourceTree = "<group>"; };
+		E647DBB5247DD0AC003D13F9 /* Alerts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Alerts.h; sourceTree = "<group>"; };
+		E647DBB9247DD2F2003D13F9 /* TestAcessoBioVew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestAcessoBioVew.swift; sourceTree = "<group>"; };
+		E647DBBC247DD6D0003D13F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E647DB99247DCE89003D13F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				949AB4D70A1AB20451EE2F5B /* Pods_PocAcessoBioSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD661F8F92D5B4F477D49E61 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C5FB1C99AE526B5D43C28A3E /* Pods-PocAcessoBioSwift.debug.xcconfig */,
+				CE58BCFE74610D3D6B058A40 /* Pods-PocAcessoBioSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B424BA3F8602A3CD4B60EEDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85983BD2EF9BF6BFF4F2E6D7 /* Pods_PocAcessoBioSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E647DB93247DCE89003D13F9 = {
+			isa = PBXGroup;
+			children = (
+				E647DB9E247DCE89003D13F9 /* PocAcessoBioSwift */,
+				E647DB9D247DCE89003D13F9 /* Products */,
+				AD661F8F92D5B4F477D49E61 /* Pods */,
+				B424BA3F8602A3CD4B60EEDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E647DB9D247DCE89003D13F9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E647DB9C247DCE89003D13F9 /* PocAcessoBioSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E647DB9E247DCE89003D13F9 /* PocAcessoBioSwift */ = {
+			isa = PBXGroup;
+			children = (
+				E647DBBC247DD6D0003D13F9 /* GoogleService-Info.plist */,
+				E647DBBB247DD6BB003D13F9 /* view */,
+				E647DBB5247DD0AC003D13F9 /* Alerts.h */,
+				E647DBB4247DD0AC003D13F9 /* Alerts.m */,
+				E647DB9F247DCE89003D13F9 /* AppDelegate.swift */,
+				E647DBA3247DCE89003D13F9 /* ViewController.swift */,
+				E647DBA5247DCE89003D13F9 /* Main.storyboard */,
+				E647DBA8247DCE93003D13F9 /* Assets.xcassets */,
+				E647DBAA247DCE93003D13F9 /* LaunchScreen.storyboard */,
+				E647DBAD247DCE93003D13F9 /* Info.plist */,
+				E647DBB3247DD0AB003D13F9 /* PocAcessoBioSwift-Bridging-Header.h */,
+			);
+			path = PocAcessoBioSwift;
+			sourceTree = "<group>";
+		};
+		E647DBBB247DD6BB003D13F9 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E647DBB9247DD2F2003D13F9 /* TestAcessoBioVew.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E647DB9B247DCE89003D13F9 /* PocAcessoBioSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E647DBB0247DCE93003D13F9 /* Build configuration list for PBXNativeTarget "PocAcessoBioSwift" */;
+			buildPhases = (
+				EB3FF854ED5757AF25CDA697 /* [CP] Check Pods Manifest.lock */,
+				E647DB98247DCE89003D13F9 /* Sources */,
+				E647DB99247DCE89003D13F9 /* Frameworks */,
+				E647DB9A247DCE89003D13F9 /* Resources */,
+				FBF37CB626F289183D321AB9 /* [CP] Embed Pods Frameworks */,
+				90C779956DAEF478B4C22F60 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PocAcessoBioSwift;
+			productName = PocAcessoBioSwift;
+			productReference = E647DB9C247DCE89003D13F9 /* PocAcessoBioSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E647DB94247DCE89003D13F9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Acesso Digital";
+				TargetAttributes = {
+					E647DB9B247DCE89003D13F9 = {
+						CreatedOnToolsVersion = 11.5;
+						LastSwiftMigration = 1150;
+					};
+				};
+			};
+			buildConfigurationList = E647DB97247DCE89003D13F9 /* Build configuration list for PBXProject "PocAcessoBioSwift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E647DB93247DCE89003D13F9;
+			productRefGroup = E647DB9D247DCE89003D13F9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E647DB9B247DCE89003D13F9 /* PocAcessoBioSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E647DB9A247DCE89003D13F9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E647DBBD247DD6D0003D13F9 /* GoogleService-Info.plist in Resources */,
+				E647DBAC247DCE93003D13F9 /* LaunchScreen.storyboard in Resources */,
+				E647DBA9247DCE93003D13F9 /* Assets.xcassets in Resources */,
+				E647DBA7247DCE89003D13F9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		90C779956DAEF478B4C22F60 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocAcessoBioSwift/Pods-PocAcessoBioSwift-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocAcessoBioSwift/Pods-PocAcessoBioSwift-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocAcessoBioSwift/Pods-PocAcessoBioSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB3FF854ED5757AF25CDA697 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PocAcessoBioSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FBF37CB626F289183D321AB9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocAcessoBioSwift/Pods-PocAcessoBioSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PocAcessoBioSwift/Pods-PocAcessoBioSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PocAcessoBioSwift/Pods-PocAcessoBioSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E647DB98247DCE89003D13F9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E647DBA4247DCE89003D13F9 /* ViewController.swift in Sources */,
+				E647DBBA247DD2F2003D13F9 /* TestAcessoBioVew.swift in Sources */,
+				E647DBA0247DCE89003D13F9 /* AppDelegate.swift in Sources */,
+				E647DBB6247DD0AC003D13F9 /* Alerts.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E647DBA5247DCE89003D13F9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E647DBA6247DCE89003D13F9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E647DBAA247DCE93003D13F9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E647DBAB247DCE93003D13F9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E647DBAE247DCE93003D13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E647DBAF247DCE93003D13F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E647DBB1247DCE93003D13F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5FB1C99AE526B5D43C28A3E /* Pods-PocAcessoBioSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR7KL5JY22;
+				INFOPLIST_FILE = PocAcessoBioSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acesso.io.PocAcessoBioSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocAcessoBioSwift/PocAcessoBioSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		E647DBB2247DCE93003D13F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE58BCFE74610D3D6B058A40 /* Pods-PocAcessoBioSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = GR7KL5JY22;
+				INFOPLIST_FILE = PocAcessoBioSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.acesso.io.PocAcessoBioSwift;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PocAcessoBioSwift/PocAcessoBioSwift-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E647DB97247DCE89003D13F9 /* Build configuration list for PBXProject "PocAcessoBioSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E647DBAE247DCE93003D13F9 /* Debug */,
+				E647DBAF247DCE93003D13F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E647DBB0247DCE93003D13F9 /* Build configuration list for PBXNativeTarget "PocAcessoBioSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E647DBB1247DCE93003D13F9 /* Debug */,
+				E647DBB2247DCE93003D13F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E647DB94247DCE89003D13F9 /* Project object */;
+}
