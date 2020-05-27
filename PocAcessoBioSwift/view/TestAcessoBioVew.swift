@@ -15,8 +15,7 @@ class TestAcessoBioVew: UIViewController, AcessoBioDelegate {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
-        
-        let acessoBioManager: AcessoBioManager = AcessoBioManager(viewController: self, url: "https://crediariohomolog.acesso.io/Treinamento", apikey: "90d940de-d1c6-4654-9475-cf5c4bda3ede", token: "GK7eCXKYIUFgI2biU4f2Ubyu6aUGSGCwT1D9u4OthaM9wJ/UL1Ho/v1+bqtgvt8O4N4/UPqgCLZB1Cz2HH4FI0H3Q42QbMoBp8vzi5hplQAbHQ9sz/xw6ci3ax4ZE911");
+        let acessoBioManager: AcessoBioManager = AcessoBioManager(viewController: self, url: "https://crediariohomolog.acesso.io/Treinamento", apikey: "", token: "");
         acessoBioManager.openLivenessX();
         
     }
