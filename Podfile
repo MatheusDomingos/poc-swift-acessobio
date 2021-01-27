@@ -5,8 +5,7 @@ target 'PocAcessoBioSwift' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  pod 'Firebase/Auth'
-  pod ‘AcessoBio’, :path => '/Users/matheusdomingos/Documents/developer/sdk/acessobio-ios'
+  pod ‘AcessoBio’, :git => 'https://github.com/acesso-io/acessobio-ios' , :tag => '1.2.0'
 
   # Pods for PocAcessoBioSwift
 
